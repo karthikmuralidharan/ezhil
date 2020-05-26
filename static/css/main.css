@@ -175,6 +175,10 @@ ul {
     margin-bottom: 10px;
 }
 
+li.post {
+    margin-bottom: 10px;
+}
+
 .post ul li p {
     display: inline;
 }
