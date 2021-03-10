@@ -47,7 +47,7 @@
 		{{ end }}
 
 		{{- if eq ($.Scratch.Get "isDisqus") true -}}
-		{{- partial "disqus.html" . -}}
+		{{- partial "github_comments.html" . -}}
 		{{- end -}}
 	</div>
 	{{ partial "footer.html" . }}
